@@ -1,0 +1,6 @@
+node_modules/
+.idea/
+hello-world/build/
+coverage/
+dex/build/
+dist/
