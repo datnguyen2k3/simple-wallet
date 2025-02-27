@@ -45,8 +45,8 @@ export class OgmiosProvider implements Provider {
             {
                 connection: {
                     address: {
-                        http: "https://ogmios1qx87def2yqulc2gpet5.preprod-v6.ogmios-m1.demeter.run",
-                        webSocket: "wss://ogmios1qx87def2yqulc2gpet5.preprod-v6.ogmios-m1.demeter.run",
+                        http: "https://ogmios138jjauvy9s3cz2szpsa.preprod-v6.ogmios-m1.demeter.run",
+                        webSocket: "wss://ogmios138jjauvy9s3cz2szpsa.preprod-v6.ogmios-m1.demeter.run",
                     }
                 }
             }

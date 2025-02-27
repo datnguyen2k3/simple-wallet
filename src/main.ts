@@ -3,7 +3,6 @@ import {showMainMenuPage} from "./components/showMainMenuPage";
 import {LucidEvolution} from "@lucid-evolution/lucid";
 import {getAddress, getKeyFrom} from "../hello-world/common";
 import {ADMIN_PUBLIC_KEY_HASH_PATH, PASSWORD_PATH, PRIVATE_KEY_PATH} from "./common/types";
-import {getAssets} from "./common/ultis";
 import {getLucidOgmiosInstance} from "./providers/lucid-instance";
 import "reflect-metadata"
 import {DataSource} from "typeorm";
@@ -71,4 +70,4 @@ async function main() {
     mainApp.start();
 }
 
-main();
+void main();
